@@ -1,0 +1,7 @@
+HINT 3:
+
+The operator notes mention that a clean snapshot was archived before maintenance.
+Use the 'find' command to search the filesystem for the backup configuration file:
+  find / -name node.conf.bak
+
+Once you locate the snapshot, copy it over the corrupted file using 'cp', then run 'reboot' to verify and bring the system back online!

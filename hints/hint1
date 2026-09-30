@@ -1,0 +1,8 @@
+HINT 1:
+
+The system failed to connect to the cluster during boot, reporting an authentication error.
+Start by checking the diagnostics logs:
+  ls /telemetry
+  cat /telemetry/incident.log
+
+See what error is reported and which configuration file is involved.

@@ -1,0 +1,9 @@
+HINT 2:
+
+The incident log mentions corrupted configuration in /core/node.conf.
+Take a look at the active configuration to see what is wrong:
+  cat /core/node.conf
+
+Next, check if any previous operator left helpful context or notes:
+  ls /operator
+  cat /operator/shift_notes.txt
